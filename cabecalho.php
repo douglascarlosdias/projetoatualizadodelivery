@@ -389,7 +389,7 @@ include_once("conexao.php");
 
         
       
-         <option value="MG" <?php if($estado == 'MG'){ ?> selected <?php } ?>>MG</option>
+         <option value="MG" <?php if($estado == 'MG'){ ?> selected <?php } ?>>DF</option>
         
 
       </select>
