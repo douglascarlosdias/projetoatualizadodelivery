@@ -129,7 +129,7 @@ $itens_pag = intval(@$_GET['itens']);
 		</div>
 	</div>
 
-
+<!--  -->
 
 <!--CHAMADA DA MODAL PARA NOVO REGISTRO OU EDIÇÃO -->
 <?php 
