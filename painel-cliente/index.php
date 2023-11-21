@@ -33,7 +33,7 @@ if(@$_GET['acao'] == $item1){
 
   <title>Painel do Cliente</title>
 
- <link rel="icon" href="../images/favicon-nova.ico" type="image/x-icon">
+ <link rel="icon" href="../images/logo.jpg" type="image/x-icon">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->

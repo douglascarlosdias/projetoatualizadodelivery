@@ -44,13 +44,6 @@ $agora = date('Y-m-d');
 	</div>
 </div>
 
-
-
-
-
-
-
-
 <!--AJAX PARA BUSCAR OS DADOS -->
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -78,13 +71,6 @@ $agora = date('Y-m-d');
 	})
 </script>
 
-
-
-
-
-
-
-
 <!--AJAX PARA LISTAR OS DADOS -->
 <script type="text/javascript">
 	$(document).ready(function(){
@@ -105,13 +91,6 @@ $agora = date('Y-m-d');
 		})
 	})
 </script>
-
-
-
-
-
-
-
  <!--MODAL PARA MOSTRAR A DESCRIÇÃO DO PRODUTO -->
 
             <div class="modal fade" id="modal-produtos" tabindex="-1" role="dialog">
@@ -134,13 +113,6 @@ $agora = date('Y-m-d');
                </div>
              </div>
            </div>
-
-
-
-
-
-
-
  <!--MODAL PARA MOSTRAR DADOS DO CLIENTE -->
 
             <div class="modal fade" id="modal-cliente" tabindex="-1" role="dialog">
@@ -163,11 +135,6 @@ $agora = date('Y-m-d');
                </div>
              </div>
            </div>
-
-
-
-
-
 
  <!--MODAL PARA MOSTRAR A DESCRIÇÃO DO PRODUTO -->
 
@@ -215,17 +182,12 @@ function produtosModal(id) {
 </script>
 
 
-
-
 <!--AJAX PARA BUSCAR OS DADOS PELA TXT -->
 <script type="text/javascript">
 	$('#txtbuscar').change(function(){
 		$('#btn-buscar').click();
 	})
 </script>
-
-
-
 
 
 <script>
