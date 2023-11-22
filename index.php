@@ -107,7 +107,7 @@ if($total_usuarios == 0){
   <div class="container">
     <div class="row row-40 justify-content-center">
       <div class="col-sm-8 col-md-7 col-lg-6 wow fadeInLeft" data-wow-delay="0s">
-        <div class="product-banner"><img src="images/banner/pizza.jpg" alt="" width="570" height="715"/>
+        <div class="product-banner"><img src="images/logo.jpg" alt="" width="570" height="715"/>
 
         </div>
       </div>

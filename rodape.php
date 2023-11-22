@@ -7,8 +7,8 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="oh-desktop">
             <div class="wow slideInRight" data-wow-delay="0s">
-              <div class="footer-brand"><a href="index.html"><img src="images/logo-inverse-196x42.png" alt="" width="196" height="42"/></a></div>
-              <p>Estamos há mais de 20 anos com nossos restaurantes, sempre dando o melhor para nossos clientes.</p>
+              <div class="footer-brand"><a href="index.html"><img src="images/logo2.jpg" alt="" width="196" height="42"/></a></div>
+              <p>Desenvolvido pela glove delivery</p>
               <ul class="footer-contacts d-inline-block d-md-block">
                 <li>
                   <div class="unit unit-spacing-xs">

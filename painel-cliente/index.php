@@ -90,7 +90,7 @@ if(@$_GET['acao'] == $item1){
       </li>
 
         <li class="nav-item d-none d-sm-inline-block">
-        <a href="index.php?acao=<?php echo $item3 ?>" class="nav-link <?php echo $item3ativo ?>">Cartões</a>
+        <a href="index.php?acao=<?php echo $item3 ?>" class="nav-link <?php echo $item3ativo ?>">Cartões fidelidade</a>
       </li>
 
    
@@ -109,7 +109,7 @@ if(@$_GET['acao'] == $item1){
           
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <a href="" data-toggle="modal" data-target="#modal-dados" class="dropdown-item">
+          <a href="" data-toggle="modal" data-target="#modal-dados" class="dropdown-item" title="edite seus dados">
 
             <!-- Message Start -->
             <div class="media">
@@ -126,16 +126,16 @@ if(@$_GET['acao'] == $item1){
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
-          <a href="../logout.php" class="dropdown-item">
+          <a href="../produtos.php" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
               <img src="../images/logout.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Sair do Site
+                  Sair do painel
                   <span class="float-right text-sm text-muted"><i class="fas fa-star text-danger"></i></span>
                 </h3>
-                <p class="text-sm">Voltar para o Login</p>
+                <p class="text-sm">Voltar para o site</p>
                 
               </div>
             </div>
@@ -202,7 +202,7 @@ if(@$_GET['acao'] == $item1){
             <a href="index.php?acao=<?php echo $item3 ?>" class="nav-link <?php echo $item3ativo ?>">
               <i class="nav-icon fas fa-th-list"></i>
               <p>
-                Cartões
+                Cartões fidelidade
                 
               </p>
             </a>
@@ -456,7 +456,7 @@ if(@$_GET['acao'] == $item1){
 
         
       
-         <option value="MG" <?php if($estado == 'MG'){ ?> selected <?php } ?>>MG</option>
+         <option value="MG" <?php if($estado == 'MG'){ ?> selected <?php } ?>>DF</option>
         
 
       </select>

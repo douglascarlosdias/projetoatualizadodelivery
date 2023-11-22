@@ -123,7 +123,7 @@ if(@$_GET['acao'] == $item1){
           
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-          <a href="" data-toggle="modal" data-target="#modal-dados" class="dropdown-item">
+          <a href="" data-toggle="modal" data-target="#modal-dados" class="dropdown-item" title="edite seus dados">
 
             <!-- Message Start -->
             <div class="media">
@@ -140,16 +140,16 @@ if(@$_GET['acao'] == $item1){
             <!-- Message End -->
           </a>
           <div class="dropdown-divider"></div>
-          <a href="../logout.php" class="dropdown-item">
+          <a href="../index.php" class="dropdown-item">
             <!-- Message Start -->
             <div class="media">
               <img src="../images/logout.png" alt="User Avatar" class="img-size-50 img-circle mr-3">
               <div class="media-body">
                 <h3 class="dropdown-item-title">
-                  Sair do Site
+                  Sair do painel administrativo
                   <span class="float-right text-sm text-muted"><i class="fas fa-star text-danger"></i></span>
                 </h3>
-                <p class="text-sm">Voltar para o Login</p>
+                <p class="text-sm">Voltar para o site</p>
                 
               </div>
             </div>

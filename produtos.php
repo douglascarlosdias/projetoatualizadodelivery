@@ -91,7 +91,7 @@ if(@$_GET['buscar'] != ''){
                       <div class="product-figure"><img src="images/produtos/<?php echo $imagem ?>" alt="" width="270" height="280"/>
                         <form method="post">
                       
-                        <div class="product-button"><a onclick="carrinhoModal('<?php echo $id ?>')" class="button button-md button-white button-ujarak" id="btn-carrinho">Add ao Carrinho</a></div>
+                        <div class="product-button"><a onclick="carrinhoModal('<?php echo $id ?>')" class="button button-md button-white button-ujarak" id="btn-carrinho">adicionar ao carrinho</a></div>
                         </form>
                       </div>
                     </div>
@@ -100,7 +100,7 @@ if(@$_GET['buscar'] != ''){
                       <div class="product-price-wrap">
                         <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div>
                         <div class="product-price">R$<?php echo $valor ?></div>
-                      </div><a class="button button-sm button-secondary button-ujarak" onclick="carrinhoModal('<?php echo $id ?>')" href="">Add ao Carrinho</a>
+                      </div><a class="button button-sm button-secondary button-ujarak" onclick="carrinhoModal('<?php echo $id ?>')" href="">adicionar ao carrinho</a>
                     </div>
                   </div>
                 </article>
@@ -159,7 +159,7 @@ if(@$_GET['buscar'] != ''){
                   <div class="unit flex-row flex-lg-column">
                     <div class="unit-left">
                       <div class="product-figure"><img src="images/produtos/<?php echo $imagem ?>" alt="" width="270" height="280"/>
-                        <div class="product-button"><a class="button button-md button-white button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">Add ao Carrinho</a></div>
+                        <div class="product-button"><a class="button button-md button-white button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">adicionar ao carrinho</a></div>
                       </div>
                     </div>
                     <div class="unit-body">
@@ -167,7 +167,7 @@ if(@$_GET['buscar'] != ''){
                       <div class="product-price-wrap">
                         <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div>
                         <div class="product-price">R$<?php echo $valor ?></div>
-                      </div><a class="button button-sm button-secondary button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">Add ao Carrinho</a>
+                      </div><a class="button button-sm button-secondary button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">adiconar ao carrinho</a>
                     </div>
                   </div>
                 </article>
@@ -227,7 +227,7 @@ if(@$_GET['buscar'] != ''){
                   <div class="unit flex-row flex-lg-column">
                     <div class="unit-left">
                       <div class="product-figure"><img src="images/produtos/<?php echo $imagem ?>" alt="" width="270" height="280"/>
-                        <div class="product-button"><a class="button button-md button-white button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">Add ao Carrinho</a></div>
+                        <div class="product-button"><a class="button button-md button-white button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">adicionar ao carrinho</a></div>
                       </div>
                     </div>
                     <div class="unit-body">
@@ -235,7 +235,7 @@ if(@$_GET['buscar'] != ''){
                       <div class="product-price-wrap">
                         <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div>
                         <div class="product-price">R$<?php echo $valor ?></div>
-                      </div><a class="button button-sm button-secondary button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">Add ao Carrinho</a>
+                      </div><a class="button button-sm button-secondary button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">adicionar ao carrinho</a>
                     </div>
                   </div>
                 </article>

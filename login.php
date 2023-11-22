@@ -22,7 +22,7 @@ if (isset($_POST['email2']) and $_POST['email2'] != '') {
     <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
     <link href="css/login.css" rel="stylesheet" id="bootstrap-css">
     <link rel="stylesheet" href="css/fonts.css">
-    <link rel="icon" href="images/favicon-nova.ico" type="image/x-icon">
+    <link rel="icon" href="images/logo.jpg" type="image/x-icon">
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
 

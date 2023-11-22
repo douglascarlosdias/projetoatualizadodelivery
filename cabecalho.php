@@ -119,13 +119,11 @@ include_once("conexao.php");
                     <ul class="rd-navbar-nav">
                       <li class="rd-nav-item"><a class="rd-nav-link" href="index.php">Inicio</a>
                       </li>
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="sobre.php">Sobre</a>
-                      </li>
-
+                     
                       <li class="rd-nav-item"><a class="rd-nav-link" href="categorias">Categorias</a>
                       </li>
 
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="produtos">Produtos</a>
+                      <li class="rd-nav-item"><a class="rd-nav-link" href="produtos">Cardápio</a>
                       </li>
 
                       <li class="rd-nav-item"><a class="rd-nav-link" href="combos">Combos</a>
@@ -140,12 +138,16 @@ include_once("conexao.php");
                        </li>';
                      }else{
                       if($_SESSION['nivel_usuario'] == 'Cliente'){
-                       echo '<li class="rd-nav-item"><a target="_blank" class="rd-nav-link" href="painel-cliente">Painel</a>
+                       echo '<li class="rd-nav-item"><a class="rd-nav-link" href="painel-cliente">Acompanhar pedido</a>
+                       </li>';
+                       echo '<li class="rd-nav-item"><a class="rd-nav-link" href="logout.php">Sair</a>
                        </li>';
                      }
 
                      if($_SESSION['nivel_usuario'] == 'Admin'){
-                       echo '<li class="rd-nav-item"><a target="_blank" class="rd-nav-link" href="painel-adm">Painel</a>
+                       echo '<li class="rd-nav-item"><a  class="rd-nav-link" href="painel-adm">Painel Administrativo</a>
+                       </li>';
+                       echo '<li class="rd-nav-item"><a class="rd-nav-link" href="logout.php">Sair</a>
                        </li>';
                      }
 
