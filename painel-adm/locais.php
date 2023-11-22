@@ -82,9 +82,6 @@ $itens_pag = intval(@$_GET['itens']);
 						<input type="text" class="form-control" id="nome" placeholder="Insira o Nome " name="nome" value="<?php echo @$nome ?>" required>
 					</div>
 
-				
-
-
 						<div align="center" id="mensagem" class="">
 
 						</div>

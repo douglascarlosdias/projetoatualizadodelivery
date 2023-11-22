@@ -145,7 +145,7 @@ include_once("conexao.php");
                      }
 
                      if($_SESSION['nivel_usuario'] == 'Admin'){
-                       echo '<li class="rd-nav-item"><a target="_blank" class="rd-nav-link" href="painel-admin">Painel</a>
+                       echo '<li class="rd-nav-item"><a target="_blank" class="rd-nav-link" href="painel-adm">Painel</a>
                        </li>';
                      }
 
@@ -181,13 +181,13 @@ include_once("conexao.php");
                     <li>
                       <div class="unit unit-spacing-sm">
                         <div class="unit-left"><span class="icon fab fa-whatsapp"></span></div>
-                        <div class="unit-body"><a target="_blank" title="Ir para o Whatsapp" class="link-phone" href="http://api.whatsapp.com/send?1=pt_BR&phone=5531975275084">31 97527-5084</a></div>
+                        <div class="unit-body"><a target="_blank" title="Ir para o Whatsapp" class="link-phone" href="http://api.whatsapp.com/send?1=pt_BR&phone=5531975275084">61 33592897</a></div>
                       </div>
                     </li>
                     <li>
                       <div class="unit unit-spacing-sm">
                         <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                        <div class="unit-body"><a class="link-location" href="#">Rua 50, Bairro Santa Efigência, Belo Horizonte 30515-522
+                        <div class="unit-body"><a class="link-location" href="#">Quadra 415 conjunto 11 casa 24 Samambaia Norte DF 
 
                          <p><small>Aberto das <?php echo date('H:i', strtotime($abertura )); ?> às <?php echo date('H:i', strtotime($fechamento )); ?></small></p></a>
 
@@ -198,7 +198,7 @@ include_once("conexao.php");
                     <li>
                       <div class="unit unit-spacing-sm">
                         <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
-                        <div class="unit-body"><a class="link-email" href="mailto:#">contato@hugocursos.com.br</a></div>
+                        <div class="unit-body"><a class="link-email" href="mailto:#"></a></div>
                       </div>
                     </li>
                   </ul>

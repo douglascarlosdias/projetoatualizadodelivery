@@ -40,6 +40,7 @@ $res = $pdo->prepare("INSERT into usuarios (nome, cpf, telefone, usuario, senha,
     $res->bindValue(":telefone", $telefone);
 
     $res->execute();
+   
 
     echo 'Cadastrado com Sucesso!!';
 

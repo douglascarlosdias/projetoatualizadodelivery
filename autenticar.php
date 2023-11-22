@@ -29,16 +29,19 @@ if($linhas > 0){
 	$_SESSION['cpf_usuario'] = $dados[0]['cpf'];
 
 	if($_SESSION['nivel_usuario'] == 'Admin'){
-		echo "<script language='javascript'>window.location='painel-adm/index.php'; </script>";
+		echo "<script language='javascript'>window.alert('Login realizado com sucesso!!'); </script>";
+		echo "<script language='javascript'>window.location='index.php'; </script>";
 		exit();
 	}
 
 	if($_SESSION['nivel_usuario'] == 'Cliente'){
+		echo "<script language='javascript'>window.alert('Login realizado com sucesso!'); </script>";
 		echo "<script language='javascript'>window.location='produtos'; </script>";
 		exit();
 	}
 
 	if($_SESSION['nivel_usuario'] == 'Balconista'){
+		echo "<script language='javascript'>window.alert('Login realizado com sucesso!!'); </script>";
 		echo "<script language='javascript'>window.location='painel-balcao/index.php'; </script>";
 		exit();
 	}

@@ -1,11 +1,11 @@
-<?php 
+<?php
 
 include_once("conexao.php");
 
-if(isset($_POST['email2']) and $_POST['email2'] != ''){
+if (isset($_POST['email2']) and $_POST['email2'] != '') {
     $email_rec = $_POST['email2'];
 }
- ?>
+?>
 
 <head>
     <title>Tio Gôga Pizzaria - Login</title>
@@ -46,13 +46,12 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
             <div class="row">
                 <div class="col-md-4 login-sec">
                     <h5 class="text-center mb-4">Faça seu Login</h5>
-                    
-                    
+
+
                     <form class="login100-form validate-form" method="post" action="autenticar.php">
                         <div class="wrap-input100 validate-input">
                             <span class="label-input100">Usuário</span><br>
-                            <input class="input100" type="text" name="username" id="username"
-                            placeholder="Insira seu Email" required>
+                            <input class="input100" type="text" name="username" id="username" placeholder="Insira seu Email" required>
                             <span class="focus-input100"></span>
                         </div>
 
@@ -82,38 +81,38 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
                     <div class="text-center p-t-8 p-b-31">
                         <a class="text-danger" href="" data-toggle="modal" data-target="#modal-rec">
-                           <small> Recuperar Senha? </small>
-                       </a>
-                   </div>
+                            <small> Recuperar Senha? </small>
+                        </a>
+                    </div>
 
 
-               </div>
-               <div class="col-md-8 banner-sec">   
-                  <div class="signup__overlay"></div>          
-                  <div class="banner">
-                    <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
+                </div>
+                <div class="col-md-8 banner-sec">
+                    <div class="signup__overlay"></div>
+                    <div class="banner">
+                        <div id="demo" class="carousel slide carousel-fade" data-ride="carousel">
 
 
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <a href="produtos">
-                                <img src="images/logo.jpg" height="100%" width="100%">
-                                </a>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <a href="produtos">
+                                        <img src="images/logo.jpg" height="100%" width="100%">
+                                    </a>
+
+                                </div>
 
                             </div>
-
                         </div>
                     </div>
-                </div>
 
+                </div>
             </div>
+
         </div>
 
-    </div>
+    </section>
 
-</section>
-
-<!-- login end -->
+    <!-- login end -->
 
 </div>
 
@@ -121,76 +120,66 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 
 
-
-
-
 <div class="modal fade" id="modal-login" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Cadastre-se</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-      </button>
-  </div>
-  <div class="modal-body">
-    <form method="post">
-        <div class="form-group">
-            <label class="text-dark" for="exampleInputEmail1">Nome</label>
-            <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome e Sobrenome" required>
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Cadastre-se</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post">
+                    <div class="form-group">
+                        <label class="text-dark" for="exampleInputEmail1">Nome</label>
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome e Sobrenome" required>
 
-        </div>
+                    </div>
 
-        <div class="row">
-         <div class="col-md-6">
-             <div class="form-group">
-                <label class="text-dark" for="exampleInputEmail1">CPF</label>
-                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" required>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-dark" for="exampleInputEmail1">CPF</label>
+                                <input type="text" class="form-control" id="cpf" name="cpf" placeholder="CPF" required>
+
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="text-dark" for="exampleInputEmail1">Telefone</label>
+                                <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="text-dark" for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Email" required value="<?php echo @$email_rec ?>">
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="text-dark" for="exampleInputEmail1">Senha</label>
+                        <input type="password" class="form-control" id="senha" name="senha" placeholder="Senha" required>
+
+                    </div>
+
+
+                    <div align="center" class="" id="mensagem">
+                    </div>
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btn-fechar" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button name="btn-cadastro" id="btn-cadastro" class="btn btn-info">Cadastrar</button>
+
+                </form>
 
             </div>
         </div>
-
-        <div class="col-md-6">
-         <div class="form-group">
-            <label class="text-dark" for="exampleInputEmail1">Telefone</label>
-            <input type="text" class="form-control" id="telefone" name="telefone" placeholder="Telefone" required>
-
-        </div>
     </div>
-</div>
-
-
-
-<div class="form-group">
-    <label class="text-dark" for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="email" name="email" placeholder="Email" required value="<?php echo @$email_rec ?>">
-
-</div>
-
-
-
-
-<div class="form-group">
-    <label class="text-dark" for="exampleInputEmail1">Senha</label>
-    <input type="text" class="form-control" id="senha" name="senha" placeholder="Senha" required>
-
-</div>
-
-
-<div align="center" class="" id="mensagem">
-</div>
-
-
-</div>
-<div class="modal-footer">
-   <button type="button" id="btn-fechar" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-   <button name="btn-cadastro" id="btn-cadastro" class="btn btn-info">Cadastrar</button>
-
-   </form>
-
-</div>
-</div>
-</div>
 </div>
 
 
@@ -200,55 +189,57 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 
 <div class="modal fade" id="modal-rec" tabindex="-1" role="dialog">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title">Recuperar Senha</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-      </button>
-  </div>
-  <div class="modal-body">
-    <form method="post">
-       
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Recuperar Senha</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form method="post">
 
 
-<div class="form-group">
-    <label class="text-dark" for="exampleInputEmail1">Email</label>
-    <input type="email" class="form-control" id="email-recuperar" name="email-recuperar" placeholder="Email" required>
 
+                    <div class="form-group">
+                        <label class="text-dark" for="exampleInputEmail1">Email</label>
+                        <input type="email" class="form-control" id="email-recuperar" name="email-recuperar" placeholder="Email" required>
+
+                    </div>
+
+
+
+
+                    <div align="center" class="" id="mensagem2">
+                    </div>
+
+
+            </div>
+            <div class="modal-footer">
+                <button type="button" id="btn-fechar" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+                <button name="btn-rec" id="btn-rec" class="btn btn-info">Recuperar</button>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
 </div>
 
 
 
 
-<div align="center" class="" id="mensagem2">
-</div>
 
+<?php
 
-</div>
-<div class="modal-footer">
-   <button type="button" id="btn-fechar" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-   <button name="btn-rec" id="btn-rec" class="btn btn-info">Recuperar</button>
+if (isset($_POST['email2']) and $_POST['email2'] != '') {
 
-   </form>
+?>
 
-</div>
-</div>
-</div>
-</div>
-
-
-
-
-
-<?php 
-
-if(isset($_POST['email2']) and $_POST['email2'] != ''){
-
- ?>
-
- <script> $("#modal-login").modal("show"); </script> 
+    <script>
+        $("#modal-login").modal("show");
+    </script>
 
 <?php } ?>
 
@@ -264,22 +255,22 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 <!--AJAX PARA INSERÇÃO DOS DADOS -->
 <script type="text/javascript">
-    $(document).ready(function(){
-        
-        $('#btn-cadastro').click(function(event){
+    $(document).ready(function() {
+
+        $('#btn-cadastro').click(function(event) {
             event.preventDefault();
-            
+
             $.ajax({
                 url: "cadastrar-usuario.php",
                 method: "post",
                 data: $('form').serialize(),
                 dataType: "text",
-                success: function(mensagem){
+                success: function(mensagem) {
 
                     $('#mensagem').removeClass()
 
-                    if(mensagem == 'Cadastrado com Sucesso!!'){
-                        
+                    if (mensagem == 'Cadastrado com Sucesso!!') {
+
                         $('#mensagem').addClass('text-success')
 
                         document.getElementById('username').value = document.getElementById('email').value;
@@ -297,18 +288,18 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 
 
-            
-           
 
-                    }else{
-                        
+
+
+                    } else {
+
                         $('#mensagem').addClass('text-danger')
                     }
-                    
+
                     $('#mensagem').text(mensagem)
 
                 },
-                
+
             })
         })
     })
@@ -320,44 +311,44 @@ if(isset($_POST['email2']) and $_POST['email2'] != ''){
 
 <!--AJAX PARA RECUPERAR A SENHA -->
 <script type="text/javascript">
-    $(document).ready(function(){
-        
-        $('#btn-rec').click(function(event){
+    $(document).ready(function() {
+
+        $('#btn-rec').click(function(event) {
             event.preventDefault();
-            
+
             $.ajax({
                 url: "recuperar.php",
                 method: "post",
                 data: $('form').serialize(),
                 dataType: "text",
-                success: function(mensagem){
+                success: function(mensagem) {
 
                     $('#mensagem2').removeClass()
 
-                    if(mensagem == 'Senha enviada para o seu Email!'){
-                        
+                    if (mensagem == 'Senha enviada para o seu Email!') {
+
                         $('#mensagem2').addClass('text-success')
 
                         document.getElementById('username').value = document.getElementById('email-recuperar').value;
 
-                       
+
                         $('#email-recuperar').val('')
-                        
+
 
                         //$('#btn-fechar').click();
                         //location.reload();
 
 
 
-                    }else{
-                        
+                    } else {
+
                         $('#mensagem2').addClass('text-danger')
                     }
-                    
+
                     $('#mensagem2').text(mensagem)
 
                 },
-                
+
             })
         })
     })

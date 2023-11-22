@@ -14,6 +14,7 @@ $item4 = 'locais';
 $item5 = 'balconistas';
 $item6 = 'configur';
 
+
 //CLASSE PARA OS ITENS ATIVOS
 if(@$_GET['acao'] == $item1){
           $item1ativo = 'active';
@@ -27,6 +28,8 @@ if(@$_GET['acao'] == $item1){
           $item5ativo = 'active';
         }else if(@$_GET['acao'] == $item6){
           $item6ativo = 'active';
+        }else if(@$_GET['acao'] == $item7){
+          $item7ativo = 'active';
         }
 
  ?>
@@ -40,7 +43,7 @@ if(@$_GET['acao'] == $item1){
 
   <title>Painel do Administrador</title>
 
- <link rel="icon" href="../images/favicon-nova.ico" type="image/x-icon">
+ <link rel="icon" href="../images/logo.jpg" type="image/x-icon">
   <!-- Font Awesome Icons -->
   <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
   <!-- overlayScrollbars -->
@@ -51,9 +54,6 @@ if(@$_GET['acao'] == $item1){
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
    <link href="dist/css/painel.css" rel="stylesheet">
 
-
-
-   
 <script src="plugins/jquery/jquery.min.js"></script>
 <!-- Bootstrap -->
 <script src="plugins/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -77,8 +77,6 @@ if(@$_GET['acao'] == $item1){
 <!-- PAGE SCRIPTS -->
 <script src="dist/js/pages/dashboard2.js"></script>
 
- 
-
 </head>
 <body class="hold-transition sidebar-mini layout-fixed layout-navbar-fixed layout-footer-fixed">
 <div class="wrapper">
@@ -101,12 +99,15 @@ if(@$_GET['acao'] == $item1){
       </li>
 
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index.php?acao=<?php echo $item4 ?>" class="nav-link <?php echo $item4ativo ?>">Locais</a>
+        <a href="index.php?acao=<?php echo $item4 ?>" class="nav-link <?php echo $item4ativo ?>">Locais de entrega </a>
       </li>
 
        <li class="nav-item d-none d-sm-inline-block">
         <a href="index.php?acao=<?php echo $item5 ?>" class="nav-link <?php echo $item5ativo ?>">Balconistas</a>
       </li>
+
+   
+
 
     </ul>
 
@@ -226,7 +227,7 @@ if(@$_GET['acao'] == $item1){
             <a href="index.php?acao=<?php echo $item4 ?>" class="nav-link <?php echo $item4ativo ?>">
               <i class="nav-icon fas fa-city"></i>
               <p>
-                Locais
+                Locais de entrega 
                 
               </p>
             </a>
@@ -253,6 +254,8 @@ if(@$_GET['acao'] == $item1){
               </p>
             </a>
           </li>
+
+      
          
           
         </ul>
