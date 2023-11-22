@@ -58,7 +58,7 @@ if($total_usuarios == 0){
   <div class="swiper-pagination swiper-pagination-style-2"></div>
 </section>
 
-<!-- Icons Ruby-->
+<!-- Icons Ruby
 <section class="section section-md bg-default section-top-image">
   <div class="container">
     <div class="row row-30 justify-content-center">
@@ -100,7 +100,7 @@ if($total_usuarios == 0){
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <!-- Trending products-->
 <section class="section section-md bg-default">
@@ -174,11 +174,11 @@ if($total_usuarios == 0){
 
 <!-- Section CTA 2-->
 <section class="section text-center">
-  <div class="parallax-container" data-parallax-img="images/banner/promocao.jpg">
+  <div class="parallax-container" data-parallax-img="images/">
     <div class="parallax-content section-xl section-inset-custom-1 context-dark bg-overlay-40">
       <div class="container">
         <h2 class="oh font-weight-normal"><span class="d-inline-block wow slideInDown" data-wow-delay="0s">Promoções</span></h2>
-        <p class="oh big text-width-large"><span class="d-inline-block wow slideInUp" data-wow-delay=".2s">Veja as nossas outras promoções clicando no botão abaixo, temos várias promoções com diversos produtos!!</span></p><a class="button button-primary button-icon button-icon-left button-ujarak wow fadeInUp" href="combos"><span class="icon mdi mdi-play"></span>Todas as Promoções</a>
+        <p color="" class="oh big text-width-large"><span class="d-inline-block wow slideInUp" data-wow-delay=".2s">Veja as nossas outras promoções clicando no botão abaixo, temos várias promoções com diversos produtos!!</span></p><a class="button button-primary button-icon button-icon-left button-ujarak wow fadeInUp" href="combos"><span class="icon mdi mdi-play"></span>Todas as Promoções</a>
       </div>
     </div>
   </div>
@@ -186,128 +186,7 @@ if($total_usuarios == 0){
 
 
 
-<!-- About us-->
-<section class="section">
-  <div class="parallax-container" data-parallax-img="images/bg-parallax-2.jpg">
-    <div class="parallax-content section-xl context-dark bg-overlay-68">
-      <div class="container">
-        <div class="row row-lg row-50 justify-content-center border-classic border-classic-big">
-          <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay="0s">
-            <div class="counter-creative">
-              <div class="counter-creative-number"><span class="counter">12</span><span class="icon counter-creative-icon fl-bigmug-line-trophy55"></span>
-              </div>
-              <h6 class="counter-creative-title">Premiações</h6>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".1s">
-            <div class="counter-creative">
-              <div class="counter-creative-number"><span class="counter">2</span><span class="symbol"></span><span class="icon counter-creative-icon fl-bigmug-line-up104"></span>
-              </div>
-              <h6 class="counter-creative-title">Produtos</h6>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".2s">
-            <div class="counter-creative">
-              <div class="counter-creative-number"><span class="counter">679</span><span class="icon counter-creative-icon fl-bigmug-line-sun81"></span>
-              </div>
-              <h6 class="counter-creative-title">Clientes Satisfeitos</h6>
-            </div>
-          </div>
-          <div class="col-sm-6 col-md-5 col-lg-3 wow fadeInLeft" data-wow-delay=".3s">
-            <div class="counter-creative">
-              <div class="counter-creative-number"><span class="counter">13</span><span class="icon counter-creative-icon fl-bigmug-line-user143"></span>
-              </div>
-              <h6 class="counter-creative-title">Lojas</h6>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
 
-</section>
-<!-- Improve your interior with deco-->
-<section class="section section-md bg-default section-top-image">
-  <div class="container">
-    <div class="oh h2-title">
-      <h2 class="wow slideInUp" data-wow-delay="0s">Alguns Produtos</h2>
-    </div>
-    <div class="row row-30" data-lightgallery="group">
-      <div class="col-sm-6 col-lg-4">
-        <div class="oh-desktop">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
-            <div class="thumbnail-mary-figure"><img src="images/galeria/01-tumb.jpg" alt="" width="370" height="303"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/01.jpg" data-lightgallery="item"><img src="images/galeria/01.jpg" alt="" width="370" height="303"/></a>
-              <h4 class="thumbnail-mary-title"><a href="#">Sanduíches</a></h4>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="oh-desktop">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
-            <div class="thumbnail-mary-figure"><img src="images/galeria/02-tumb.jpg" alt="" width="370" height="303"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/02.jpg" data-lightgallery="item"><img src="images/galeria/02.jpg" alt="" width="370" height="303"/></a>
-              <h4 class="thumbnail-mary-title"><a href="#">Artesanais</a></h4>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="oh-desktop">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInRight" data-wow-delay=".0s">
-            <div class="thumbnail-mary-figure"><img src="images/galeria/03-tumb.jpg" alt="" width="370" height="303"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/03.jpg" data-lightgallery="item"><img src="images/galeria/03.jpg" alt="" width="370" height="303"/></a>
-              <h4 class="thumbnail-mary-title"><a href="#">Drinks e Bebidas</a></h4>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="oh-desktop">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInUp" data-wow-delay=".1s">
-            <div class="thumbnail-mary-figure"><img src="images/galeria/04-tumb.jpg" alt="" width="370" height="303"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/04.jpg" data-lightgallery="item"><img src="images/galeria/04.jpg" alt="" width="370" height="303"/></a>
-              <h4 class="thumbnail-mary-title"><a href="#">Açaí</a></h4>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="oh-desktop">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInLeft" data-wow-delay="0s">
-            <div class="thumbnail-mary-figure"><img src="images/galeria/05-tumb.jpg" alt="" width="370" height="303"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/05.jpg" data-lightgallery="item"><img src="images/galeria/05.jpg" alt="" width="370" height="303"/></a>
-              <h4 class="thumbnail-mary-title"><a href="#">Pizzas</a></h4>
-            </div>
-          </article>
-        </div>
-      </div>
-      <div class="col-sm-6 col-lg-4">
-        <div class="oh-desktop">
-          <!-- Thumbnail Classic-->
-          <article class="thumbnail thumbnail-mary thumbnail-sm wow slideInDown" data-wow-delay=".1s">
-            <div class="thumbnail-mary-figure"><img src="images/galeria/06-tumb.jpg" alt="" width="370" height="303"/>
-            </div>
-            <div class="thumbnail-mary-caption"><a class="icon fl-bigmug-line-zoom60" href="images/galeria/06.jpg" data-lightgallery="item"><img src="images/galeria/06.jpg" alt="" width="370" height="303"/></a>
-              <h4 class="thumbnail-mary-title"><a href="#">Vinhos</a></h4>
-            </div>
-          </article>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
 
 <?php include_once("rodape.php") ?>
