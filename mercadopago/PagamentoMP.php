@@ -14,8 +14,8 @@
      // contrário o sistema estará em modo de produção
      private $sandbox = false;
      // Suas credenciais do mercado pago
-      private $client_id = "7645692252055791";
-     private $client_secret = "lODxFDiGf8KkgxGYRelSTBt5wEgmAV4R";
+      private $client_id = "3484680301266761";
+     private $client_secret = "QsCmzxaOeZ836d8YyAU9T3mTkKut7PH1";
      
      public function PagarMP($ref , $nome , $valor , $url){
      // iniciando as credenciais do MP

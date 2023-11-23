@@ -7,7 +7,7 @@
          <div class="col-sm-6 col-lg-4 col-xl-3">
            <div class="oh-desktop">
              <div class="wow slideInRight" data-wow-delay="0s">
-               <div class="footer-brand"><a href="index.php"><img src="images/logo2.jpg" alt="" width="150" height="42" /></a></div>
+               <div class="footer-brand"><a href="index.php"><img src="images/logo-glove.png" alt="" width="220" height="100" /></a></div>
                <p>Desenvolvido pela Glove Delivery</p>
                <ul class="footer-contacts d-inline-block d-md-block">
                  <li>
