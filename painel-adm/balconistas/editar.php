@@ -46,6 +46,14 @@ if($reg_antigo != $cpf){
 	
 	$res->execute();
 
+	$result = $res->execute();
+if ($result) {
+    echo '<script>alert("Balconista cadastrado com sucesso!");</script>';
+    echo "<script language='javascript'>window.location='painel-adm/index.php?acao=balconistas'; </script>";
+} else {
+    echo '<p>Não foi fossível inserir Usuário!</p>';
+}
+
 	
 
 	echo "Editado com Sucesso!!";

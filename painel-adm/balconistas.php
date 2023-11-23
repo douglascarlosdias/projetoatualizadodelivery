@@ -107,7 +107,7 @@ $itens_pag = intval(@$_GET['itens']);
 					<div class="form-group">
 
 
-						<label for="exampleFormControlInput1">Usuário</label>
+						<label for="exampleFormControlInput1">E-mail</label>
 						<input type="email" class="form-control" id="usuario" placeholder="Insira o Email " name="usuario" value="<?php echo @$usuario ?>" required>
 					</div>
 

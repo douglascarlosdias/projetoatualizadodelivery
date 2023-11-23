@@ -81,7 +81,7 @@ if(@$_GET['acao'] == $item1){
         <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
       </li>
       <li class="nav-item d-none d-sm-inline-block">
-        <a href="index.php?acao=<?php echo $item1 ?>" class="nav-link <?php echo $item1ativo ?>">Pedidos</a>
+        <a href="index.php?acao=<?php echo $item1 ?>" class="nav-link <?php echo $item1ativo ?>">Pedidos em aberto</a>
       </li>
      
      <li class="nav-item d-none d-sm-inline-block">
@@ -176,7 +176,7 @@ if(@$_GET['acao'] == $item1){
             <a href="index.php?acao=<?php echo $item1 ?>" class="nav-link <?php echo $item1ativo ?>">
               <i class="nav-icon fas fa-home"></i>
               <p>
-                Pedidos
+                Pedidos em aberto
                 
               </p>
             </a>
