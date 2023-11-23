@@ -1,8 +1,8 @@
 <?php 
 
 $email_adm = '';
-$url_site = '';
-$nome_loja = '';
+$url_site = 'http//localhost/delivery';
+$nome_loja = 'Tio Gôga Delivery';
 
 /*
 //DADOS PARA CONEXÃO COM BD LOCAL

@@ -130,11 +130,10 @@ include_once("conexao.php");
                       </li>
 
 
-                      <li class="rd-nav-item"><a class="rd-nav-link" href="contatos.php">Contatos</a>
-                      </li>
+            
 
                       <?php if(!isset($_SESSION['nome_usuario'])){
-                       echo '<li class="rd-nav-item"><a target="_blank" class="rd-nav-link" href="login.php">Login</a>
+                       echo '<li class="rd-nav-item"><a  class="rd-nav-link" href="login.php">Login</a>
                        </li>';
                      }else{
                       if($_SESSION['nivel_usuario'] == 'Cliente'){
@@ -183,13 +182,13 @@ include_once("conexao.php");
                     <li>
                       <div class="unit unit-spacing-sm">
                         <div class="unit-left"><span class="icon fab fa-whatsapp"></span></div>
-                        <div class="unit-body"><a target="_blank" title="Ir para o Whatsapp" class="link-phone" href="http://api.whatsapp.com/send?1=pt_BR&phone=5531975275084">61 33592897</a></div>
+                        <div class="unit-body"><a target="_blank" title="Ir para o Whatsapp" class="link-phone" href="https://wa.me/5561994065329">61 994065329</a></div>
                       </div>
                     </li>
                     <li>
                       <div class="unit unit-spacing-sm">
                         <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                        <div class="unit-body"><a class="link-location" href="#">Quadra 415 conjunto 11 casa 24 Samambaia Norte DF 
+                        <div class="unit-body"><a class="link-location" href="https://ul.waze.com/ul?ll=-15.87992010%2C-48.11438450&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">Quadra 415 conjunto 11 casa 24 Samambaia Norte DF 
 
                          <p><small>Aberto das <?php echo date('H:i', strtotime($abertura )); ?> às <?php echo date('H:i', strtotime($fechamento )); ?></small></p></a>
 
@@ -200,12 +199,12 @@ include_once("conexao.php");
                     <li>
                       <div class="unit unit-spacing-sm">
                         <div class="unit-left"><span class="icon fa fa-envelope"></span></div>
-                        <div class="unit-body"><a class="link-email" href="mailto:#"></a></div>
+                        <div class="unit-body"><a class="link-email" href="mailto:#">Tiogogamassas@gmail.com</a></div>
                       </div>
                     </li>
                   </ul>
                   <ul class="list-inline rd-navbar-modern-list-social">
-                    <li><a title="Ir para página no facebook" class="icon fa fa-facebook" href="https://www.facebook.com/hugovasconcelosfreitas"></a></li>
+                    <li><a title="Ir para página no facebook" class="icon fa fa-facebook" href="https://www.facebook.com/tiogogapizzaexpress/" target="_blank"></a></li>
                     <li><a class="icon fa fa-twitter" href="#"></a></li>
                     <li><a class="icon fa fa-google-plus" href="#"></a></li>
                     <li><a class="icon fa fa-instagram" href="#"></a></li>

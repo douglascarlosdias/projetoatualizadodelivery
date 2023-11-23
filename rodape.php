@@ -7,20 +7,20 @@
         <div class="col-sm-6 col-lg-4 col-xl-3">
           <div class="oh-desktop">
             <div class="wow slideInRight" data-wow-delay="0s">
-              <div class="footer-brand"><a href="index.html"><img src="images/logo2.jpg" alt="" width="196" height="42"/></a></div>
-              <p>Desenvolvido pela glove delivery</p>
+              <div class="footer-brand"><a href="index.php"><img src="images/logo2.jpg" alt="" width="150" height="42"/></a></div>
+              <p>Desenvolvido pela Glove Delivery</p>
               <ul class="footer-contacts d-inline-block d-md-block">
                 <li>
                   <div class="unit unit-spacing-xs">
                     <div class="unit-left"><span class="icon fa fa-phone"></span></div>
-                    <div class="unit-body"><a class="link-phone" href="http://api.whatsapp.com/send?1=pt_BR&phone=5531975275084">31 97527-5084</a></div>
+                    <div class="unit-body"><a class="link-phone" href="https://wa.me/5561994065329" target="_blank">61 994065329</a></div>
                   </div>
                 </li>
                 
                 <li>
                   <div class="unit unit-spacing-xs">
                     <div class="unit-left"><span class="icon fa fa-location-arrow"></span></div>
-                    <div class="unit-body"><a class="link-location" href="#">Rua 50, Bairro Santa Efigência, Belo Horizonte 30515-522
+                    <div class="unit-body"><a class="link-location" href="https://ul.waze.com/ul?ll=-15.87992010%2C-48.11438450&navigate=yes&utm_campaign=default&utm_source=waze_website&utm_medium=lm_share_location" target="_blank">>Quadra 415 conjunto 11 casa 24 Samambaia Norte -DF
                        <p><small>Aberto das <?php echo date('H:i', strtotime($abertura )); ?> às <?php echo date('H:i', strtotime($fechamento )); ?></small></p>
                     </a></div>
                   </div>
@@ -45,10 +45,10 @@
                 <p class="text-white">Siga-nos</p>
                 <div>
                   <ul class="list-inline list-inline-sm footer-social-list-2">
-                    <li><a class="icon fa fa-facebook" href="#"></a></li>
+                    <li><a class="icon fa fa-facebook" href="https://www.facebook.com/tiogogapizzaexpress/" target="_blank" ></a></li>
                     <li><a class="icon fa fa-twitter" href="#"></a></li>
                     <li><a class="icon fa fa-google-plus" href="#"></a></li>
-                    <li><a class="icon fa fa-instagram" href="#"></a></li>
+                    <li><a class="icon fa fa-instagram" href="https://www.instagram.com/tiogogapizzaria/" target="_blank"></a></li>
                   </ul>
                 </div>
                 <select class="form-control form-control-sm" id="" name="bairro">

@@ -96,9 +96,9 @@ if(@$_GET['buscar'] != ''){
                       </div>
                     </div>
                     <div class="unit-body">
-                      <h6 class="product-title"><a href="" onclick="setaDadosModal('<?php echo $descricao ?>','<?php echo $descricao_longa ?>')" data-toggle="modal" data-target="#modal-desc"><?php echo $nome ?></a></h6>
+                      <h6 class="product-title"><a href="" title="ver detalhes do produto" onclick="setaDadosModal('<?php echo $descricao ?>','<?php echo $descricao_longa ?>')" data-toggle="modal" data-target="#modal-desc"><?php echo $nome ?></a></h6>
                       <div class="product-price-wrap">
-                        <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div>
+                        <!-- <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div> -->
                         <div class="product-price">R$<?php echo $valor ?></div>
                       </div><a class="button button-sm button-secondary button-ujarak" onclick="carrinhoModal('<?php echo $id ?>')" href="">adicionar ao carrinho</a>
                     </div>
@@ -163,9 +163,9 @@ if(@$_GET['buscar'] != ''){
                       </div>
                     </div>
                     <div class="unit-body">
-                      <h6 class="product-title"><a href="" onclick="setaDadosModal('<?php echo $descricao ?>','<?php echo $descricao_longa ?>')" data-toggle="modal" data-target="#modal-desc"><?php echo $nome ?></a></h6>
+                      <h6 class="product-title"><a href="" title="ver detalhes do produto" onclick="setaDadosModal('<?php echo $descricao ?>','<?php echo $descricao_longa ?>')" data-toggle="modal" data-target="#modal-desc"><?php echo $nome ?></a></h6>
                       <div class="product-price-wrap">
-                        <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div>
+                        <!-- <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div> -->
                         <div class="product-price">R$<?php echo $valor ?></div>
                       </div><a class="button button-sm button-secondary button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">adiconar ao carrinho</a>
                     </div>
@@ -231,9 +231,9 @@ if(@$_GET['buscar'] != ''){
                       </div>
                     </div>
                     <div class="unit-body">
-                      <h6 class="product-title"><a href="" onclick="setaDadosModal('<?php echo $descricao ?>','<?php echo $descricao_longa ?>')" data-toggle="modal" data-target="#modal-desc"><?php echo $nome ?></a></h6>
+                      <h6 class="product-title"><a href="" title="ver detalhes do pedido" onclick="setaDadosModal('<?php echo $descricao ?>','<?php echo $descricao_longa ?>')" data-toggle="modal" data-target="#modal-desc"><?php echo $nome ?></a></h6>
                       <div class="product-price-wrap">
-                        <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div>
+                        <!-- <div class="product-price product-price-old">R$<?php echo $valor_sem_desconto ?></div> -->
                         <div class="product-price">R$<?php echo $valor ?></div>
                       </div><a class="button button-sm button-secondary button-ujarak" href="" onclick="carrinhoModal('<?php echo $id ?>')">adicionar ao carrinho</a>
                     </div>

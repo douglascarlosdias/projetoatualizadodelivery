@@ -205,7 +205,7 @@ $cep = $dados[0]['cep'];
 		
 		<tr>
 			<td colspan="3" align="center">
-				www.hugocursos.com.br
+				www.tiogogadelivery.com.br
 			</td>
 		</tr>
 	</tfoot>
