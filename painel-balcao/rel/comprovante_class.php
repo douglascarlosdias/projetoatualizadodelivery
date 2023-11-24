@@ -9,13 +9,16 @@ use Dompdf\Dompdf;
 $id = $_GET['id'];
 
 //ALIMENTAR OS DADOS NO RELATÓRIO
-$html = utf8_encode(file_get_contents($url_site."painel-balcao/rel/comprovante.php?id=".$id));
+$path = "http://localhost/delivery//painel-balcao/rel/comprovante.php?id=".$id;
 
+$html = (file_get_contents($path));
 
+// http://localhost/delivery/painel-balcao/rel/comprovante.php?id=77
 
 //INICIALIZAR A CLASSE DO DOMPDF
 $pdf = new DOMPDF();
 
+var_dump($pdf); exit;
 //Definir o tamanho do papel e orientação da página
 $pdf->set_paper(array(0, 0, 297.64, 700), 'portrait');
 

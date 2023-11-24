@@ -28,19 +28,21 @@ echo '
 	    
 
 		//PEGAR A PÁGINA ATUAL
-		$itens_pag = intval(@$_POST['itens_pag']);
-		if($itens_pag != ''){
-			$itens_por_pagina = $itens_pag;
-		}
-		$pagina_pag = intval(@$_POST['pag']);
+		// $itens_pag = intval(@$_POST['itens_pag']);
+		// if($itens_pag != ''){
+		// 	$itens_por_pagina = $itens_pag;
+		// }
+		// $pagina_pag = intval(@$_POST['pag']);
 
-		$limite = $pagina_pag * $itens_por_pagina;
+		// $limite = $pagina_pag * $itens_por_pagina;
 
-		//CAMINHO DA PAGINAÇÃO
-		$caminho_pag = 'index.php?acao='.$pagina.'&';
+		// //CAMINHO DA PAGINAÇÃO
+		// $caminho_pag = 'index.php?acao='.$pagina.'&';
 
 	
-		$res = $pdo->query("SELECT * from vendas where cliente = '$cpf_cliente' order by id desc LIMIT $limite, $itens_por_pagina");
+		// $res = $pdo->query("SELECT * from vendas where cliente = '$cpf_cliente' order by id desc LIMIT $limite, $itens_por_pagina");
+
+		$res = $pdo->query("SELECT * from vendas where cliente = '$cpf_cliente' order by id desc ");
 	
 	
 	$dados = $res->fetchAll(PDO::FETCH_ASSOC);
@@ -114,26 +116,26 @@ echo  '
 
 
 
-if(@$itens_pag == $itens_por_pagina_1){
-	$classe_ativa_1 = 'classe_ativa_pag';
-}
-if(@$itens_pag == $itens_por_pagina_2){
-	$classe_ativa_2 = 'classe_ativa_pag';
-}
-if(@$itens_pag == $itens_por_pagina_3){
-	$classe_ativa_3 = 'classe_ativa_pag';
-}
+// if(@$itens_pag == $itens_por_pagina_1){
+// 	$classe_ativa_1 = 'classe_ativa_pag';
+// }
+// if(@$itens_pag == $itens_por_pagina_2){
+// 	$classe_ativa_2 = 'classe_ativa_pag';
+// }
+// if(@$itens_pag == $itens_por_pagina_3){
+// 	$classe_ativa_3 = 'classe_ativa_pag';
+// }
 
-echo '
-<a href="'.$caminho_pag.'itens='.@$itens_por_pagina_1.'" class="'.@$classe_ativa_1.'" title="Itens para mostrar na paginação">'.$itens_por_pagina_1.'</a> - 
-<a href="'.$caminho_pag.'itens='.@$itens_por_pagina_2.'" class="'.@$classe_ativa_2.'" title="Itens para mostrar na paginação">'.$itens_por_pagina_2.'</a> -
-<a href="'.$caminho_pag.'itens='.@$itens_por_pagina_3.'" class="'.@$classe_ativa_3.'" title="Itens para mostrar na paginação">'.$itens_por_pagina_3.'</a> -
-<small>Itens</small>
+// echo '
+// <a href="'.$caminho_pag.'itens='.@$itens_por_pagina_1.'" class="'.@$classe_ativa_1.'" title="Itens para mostrar na paginação">'.$itens_por_pagina_1.'</a> - 
+// <a href="'.$caminho_pag.'itens='.@$itens_por_pagina_2.'" class="'.@$classe_ativa_2.'" title="Itens para mostrar na paginação">'.$itens_por_pagina_2.'</a> -
+// <a href="'.$caminho_pag.'itens='.@$itens_por_pagina_3.'" class="'.@$classe_ativa_3.'" title="Itens para mostrar na paginação">'.$itens_por_pagina_3.'</a> -
+// <small>Itens</small>
 
-</div>
+// </div>
 
 
-';
+// ';
 
 
 ?>

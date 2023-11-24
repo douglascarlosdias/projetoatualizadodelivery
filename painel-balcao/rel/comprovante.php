@@ -19,6 +19,7 @@ $cliente = $dados[0]['cliente'];
 $obs = $dados[0]['obs'];
 $data = $dados[0]['data'];
 
+
 $data2 = implode('/', array_reverse(explode('-', $data)));
 
 $res = $pdo->query("SELECT * from clientes where cpf = '$cliente' ");
